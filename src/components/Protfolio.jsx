@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import image from "../assets/Surya.png";
+import image from "../assets/surya.png";
 
 function Portfolio() {
   const [menuOpen, setMenuOpen] = useState(false);
