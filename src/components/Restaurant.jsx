@@ -10,13 +10,9 @@ function RestaurantDetails() {
 
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           <div>
-            <span className="bg-orange-500/20 text-orange-300 px-4 py-2 rounded-full text-sm font-bold">
-              Frontend Project
-            </span>
+            <span className="bg-orange-500/20 text-orange-300 px-4 py-2 rounded-full text-sm font-bold">Frontend Project</span>
 
-            <h1 className="text-5xl font-black text-orange-400 mt-6 mb-5">
-              FoodieBite - Restaurant Website
-            </h1>
+            <h1 className="text-5xl font-black text-orange-400 mt-6 mb-5">FoodieBite - Restaurant Website</h1>
 
             <p className="text-gray-300 leading-8 text-lg">
               FoodieBite is a sleek and highly interactive restaurant and food delivery 
@@ -31,30 +27,18 @@ function RestaurantDetails() {
             </p>
 
             <div className="flex flex-wrap gap-4 mt-8">
-              <a
-                href="https://surya-2310.github.io/Restaurant/" 
-                target="_blank"
-                rel="noopener noreferrer"
+              <a href="https://surya-2310.github.io/Restaurant/" target="_blank"rel="noopener noreferrer"
                 className="bg-orange-500 px-7 py-3 rounded-xl font-bold hover:bg-orange-400"
-              >
-                Live Project
-              </a>
+              >Live Project</a>
 
-              <a
-                href="https://github.com/Surya-2310/Restaurant.git" 
-                target="_blank"
-                rel="noopener noreferrer"
+              <a href="https://github.com/Surya-2310/Restaurant.git" target="_blank" rel="noopener noreferrer"
                 className="bg-white text-black px-7 py-3 rounded-xl font-bold hover:bg-gray-200"
-              >
-                GitHub Code
-              </a>
+              >GitHub Code</a>
             </div>
           </div>
 
           <div className="bg-[#111] border border-orange-500/20 rounded-3xl p-8 shadow-xl">
-            <h2 className="text-2xl font-bold text-orange-300 mb-5">
-              Project Highlights
-            </h2>
+            <h2 className="text-2xl font-bold text-orange-300 mb-5">Project Highlight</h2>
 
             <div className="grid sm:grid-cols-2 gap-4">
               {[
@@ -96,9 +80,7 @@ function RestaurantDetails() {
         </div>
 
         <div className="mt-12 bg-[#171717] p-8 rounded-3xl border border-orange-500/20">
-          <h2 className="text-3xl font-black text-orange-400 mb-5">
-            Technologies Used
-          </h2>
+          <h2 className="text-3xl font-black text-orange-400 mb-5">Technologies Used</h2>
 
           <div className="flex flex-wrap gap-3">
             {["HTML", "CSS","Javascript", "GitHub"].map((tech) => (
